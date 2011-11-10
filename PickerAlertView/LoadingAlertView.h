@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LoadingAlertView : UIAlertView
+@interface LoadingAlertView : UIAlertView 
 
 @end
