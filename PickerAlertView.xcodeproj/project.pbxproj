@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		867A55D9146B7AA100BD2988 /* LoadingAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 867A55D8146B7AA100BD2988 /* LoadingAlertView.m */; };
 		86AB3EC813FA3F89004F844A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86AB3EC713FA3F89004F844A /* UIKit.framework */; };
 		86AB3ECA13FA3F89004F844A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86AB3EC913FA3F89004F844A /* Foundation.framework */; };
 		86AB3ECC13FA3F89004F844A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86AB3ECB13FA3F89004F844A /* CoreGraphics.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		867A55D7146B7AA100BD2988 /* LoadingAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingAlertView.h; sourceTree = "<group>"; };
+		867A55D8146B7AA100BD2988 /* LoadingAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingAlertView.m; sourceTree = "<group>"; };
 		86AB3EC313FA3F89004F844A /* PickerAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickerAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86AB3EC713FA3F89004F844A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		86AB3EC913FA3F89004F844A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -120,6 +123,8 @@
 				86AB3F0E13FA42CA004F844A /* PickerViewController.m */,
 				86AB3F1013FA4480004F844A /* PickerAlertView.h */,
 				86AB3F1113FA4480004F844A /* PickerAlertView.m */,
+				867A55D7146B7AA100BD2988 /* LoadingAlertView.h */,
+				867A55D8146B7AA100BD2988 /* LoadingAlertView.m */,
 				86AB3ECE13FA3F89004F844A /* Supporting Files */,
 			);
 			path = PickerAlertView;
@@ -264,6 +269,7 @@
 				86AB3ED813FA3F89004F844A /* PickerAlertViewAppDelegate.m in Sources */,
 				86AB3F0F13FA42CA004F844A /* PickerViewController.m in Sources */,
 				86AB3F1213FA4480004F844A /* PickerAlertView.m in Sources */,
+				867A55D9146B7AA100BD2988 /* LoadingAlertView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
