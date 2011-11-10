@@ -22,7 +22,7 @@
 
 - (id)initWithFrame:(CGRect)frame {
 	if (self = [super initWithFrame:frame]) {
-		UIActivityIndicatorView *activity = [[UIActivityIndicatorView alloc] initWithFrame:CGRectMake(50, 50, 50, 50)];
+		UIActivityIndicatorView *activity = [[UIActivityIndicatorView alloc] initWithFrame:CGRectMake(125, 90, 50, 50)];
 		[self addSubview:activity];
 		[activity release];
 	}
@@ -38,7 +38,7 @@
 	[super layoutSubviews];
 	for (UIView *view in self.subviews) {
 		if (view.frame.size.height == 43) {
-			view.frame = CGRectMake(view.frame.origin.x, 232, 127, 43);
+			view.frame = CGRectMake(view.frame.origin.x, 232, view.frame.size.width, view.frame.size.height);
 		}
 	}
 }
