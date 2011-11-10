@@ -44,7 +44,7 @@
 	NSString *dateFromData = [NSString stringWithFormat:@"%@",alertView.datePickerView.date];
 	NSString *date = [dateFromData substringWithRange:NSMakeRange(0, 10)];
 	label.text = date;
-	NSLog(@"date %@ ... %@",date,alertView.datePickerView.date);
+	NSLog(@"date %@...%@",date,alertView.datePickerView.date);
 }
 
 @end
