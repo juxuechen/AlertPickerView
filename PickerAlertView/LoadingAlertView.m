@@ -22,23 +22,29 @@
 
 - (id)initWithFrame:(CGRect)frame {
 	if (self = [super initWithFrame:frame]) {
-		UIActivityIndicatorView *activity = [[UIActivityIndicatorView alloc] initWithFrame:CGRectMake(125, 90, 50, 50)];
+		
+		UIActivityIndicatorView *activity = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhite];
+        activity.frame = CGRectMake(180, 15, 80, 80);
+        [activity startAnimating];
+        [activity sizeToFit];
 		[self addSubview:activity];
-		[activity release];
+		
 	}
 	return self;
 }
 
-- (void)setFrame:(CGRect)rect {
-	[super setFrame:CGRectMake(0, 0, 320, 300)];//width 默认 284
-	self.center = CGPointMake(320/2, 280);
-}
+//- (void)setFrame:(CGRect)rect {
+//	[super setFrame:CGRectMake(0, 0, 284, 200)];//width 默认 284
+//	self.center = CGPointMake(320/2, 280);
+//}
 
 - (void)layoutSubviews {
 	[super layoutSubviews];
-	for (UIView *view in self.subviews) {
-		if (view.frame.size.height == 43) {
-			view.frame = CGRectMake(view.frame.origin.x, 232, view.frame.size.width, view.frame.size.height);
+	for (id obj in self.subviews) {
+		if ([obj isKindOfClass:[UILabel class]]) {
+			UILabel *label = obj;
+			label.frame = CGRectMake(92, 15, 100, 23);
+			label.textAlignment = UITextAlignmentLeft;
 		}
 	}
 }
@@ -47,5 +53,17 @@
 	[super drawRect:rect];
 }
 
+- (void)loaded {
+	for (id obj in self.subviews) {
+		if ([obj isKindOfClass:[UILabel class]]) {
+			UILabel *label = obj;
+			label.text = @"加载完毕";
+			label.textAlignment = UITextAlignmentCenter;
+		}
+		else if ([obj isKindOfClass:[UIActivityIndicatorView class]]) {
+			[obj stopAnimating];
+		}
+	}
+}
 
 @end

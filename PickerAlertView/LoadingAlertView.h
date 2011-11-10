@@ -10,4 +10,6 @@
 
 @interface LoadingAlertView : UIAlertView 
 
+- (void)loaded;
+
 @end

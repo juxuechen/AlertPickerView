@@ -63,10 +63,5 @@
 	 */
 }
 
-- (void)dealloc {
-	[pickerViewController release];
-	
-	[super dealloc];
-}
 
 @end
