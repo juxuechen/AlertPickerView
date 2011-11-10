@@ -18,10 +18,7 @@
 		86AB3EE113FA3F89004F844A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86AB3EC713FA3F89004F844A /* UIKit.framework */; };
 		86AB3EE213FA3F89004F844A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86AB3EC913FA3F89004F844A /* Foundation.framework */; };
 		86AB3EE313FA3F89004F844A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86AB3ECB13FA3F89004F844A /* CoreGraphics.framework */; };
-		86AB3EEB13FA3F89004F844A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 86AB3EE913FA3F89004F844A /* InfoPlist.strings */; };
-		86AB3EEE13FA3F89004F844A /* PickerAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AB3EED13FA3F89004F844A /* PickerAlertViewTests.m */; };
 		86AB3F0F13FA42CA004F844A /* PickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AB3F0E13FA42CA004F844A /* PickerViewController.m */; };
-		86AB3F1213FA4480004F844A /* PickerAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AB3F1113FA4480004F844A /* PickerAlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,14 +46,8 @@
 		86AB3ED713FA3F89004F844A /* PickerAlertViewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickerAlertViewAppDelegate.m; sourceTree = "<group>"; };
 		86AB3EDE13FA3F89004F844A /* PickerAlertViewTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickerAlertViewTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86AB3EDF13FA3F89004F844A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		86AB3EE813FA3F89004F844A /* PickerAlertViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PickerAlertViewTests-Info.plist"; sourceTree = "<group>"; };
-		86AB3EEA13FA3F89004F844A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		86AB3EEC13FA3F89004F844A /* PickerAlertViewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PickerAlertViewTests.h; sourceTree = "<group>"; };
-		86AB3EED13FA3F89004F844A /* PickerAlertViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickerAlertViewTests.m; sourceTree = "<group>"; };
 		86AB3F0D13FA42CA004F844A /* PickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerViewController.h; sourceTree = "<group>"; };
 		86AB3F0E13FA42CA004F844A /* PickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerViewController.m; sourceTree = "<group>"; };
-		86AB3F1013FA4480004F844A /* PickerAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerAlertView.h; sourceTree = "<group>"; };
-		86AB3F1113FA4480004F844A /* PickerAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				86AB3ECD13FA3F89004F844A /* PickerAlertView */,
-				86AB3EE613FA3F89004F844A /* PickerAlertViewTests */,
 				86AB3EC613FA3F89004F844A /* Frameworks */,
 				86AB3EC413FA3F89004F844A /* Products */,
 			);
@@ -121,8 +111,6 @@
 				86AB3ED713FA3F89004F844A /* PickerAlertViewAppDelegate.m */,
 				86AB3F0D13FA42CA004F844A /* PickerViewController.h */,
 				86AB3F0E13FA42CA004F844A /* PickerViewController.m */,
-				86AB3F1013FA4480004F844A /* PickerAlertView.h */,
-				86AB3F1113FA4480004F844A /* PickerAlertView.m */,
 				867A55D7146B7AA100BD2988 /* LoadingAlertView.h */,
 				867A55D8146B7AA100BD2988 /* LoadingAlertView.m */,
 				86AB3ECE13FA3F89004F844A /* Supporting Files */,
@@ -137,25 +125,6 @@
 				86AB3ED013FA3F89004F844A /* InfoPlist.strings */,
 				86AB3ED313FA3F89004F844A /* main.m */,
 				86AB3ED513FA3F89004F844A /* PickerAlertView-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		86AB3EE613FA3F89004F844A /* PickerAlertViewTests */ = {
-			isa = PBXGroup;
-			children = (
-				86AB3EEC13FA3F89004F844A /* PickerAlertViewTests.h */,
-				86AB3EED13FA3F89004F844A /* PickerAlertViewTests.m */,
-				86AB3EE713FA3F89004F844A /* Supporting Files */,
-			);
-			path = PickerAlertViewTests;
-			sourceTree = "<group>";
-		};
-		86AB3EE713FA3F89004F844A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				86AB3EE813FA3F89004F844A /* PickerAlertViewTests-Info.plist */,
-				86AB3EE913FA3F89004F844A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -238,7 +207,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86AB3EEB13FA3F89004F844A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +236,6 @@
 				86AB3ED413FA3F89004F844A /* main.m in Sources */,
 				86AB3ED813FA3F89004F844A /* PickerAlertViewAppDelegate.m in Sources */,
 				86AB3F0F13FA42CA004F844A /* PickerViewController.m in Sources */,
-				86AB3F1213FA4480004F844A /* PickerAlertView.m in Sources */,
 				867A55D9146B7AA100BD2988 /* LoadingAlertView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,7 +244,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86AB3EEE13FA3F89004F844A /* PickerAlertViewTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +262,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				86AB3ED113FA3F89004F844A /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		86AB3EE913FA3F89004F844A /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				86AB3EEA13FA3F89004F844A /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
