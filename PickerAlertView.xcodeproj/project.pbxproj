@@ -353,11 +353,16 @@
 		86AB3EF213FA3F89004F844A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: guibin li (V49VKE4N92)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: guibin li (V49VKE4N92)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PickerAlertView/PickerAlertView-Prefix.pch";
-				GCC_VERSION = 4.2;
+				GCC_VERSION = "";
 				INFOPLIST_FILE = "PickerAlertView/PickerAlertView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "FDCD9F1D-85D1-4D25-8D0F-BE819EFE65D3";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FDCD9F1D-85D1-4D25-8D0F-BE819EFE65D3";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -365,11 +370,16 @@
 		86AB3EF313FA3F89004F844A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: guibin li (V49VKE4N92)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: guibin li (V49VKE4N92)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PickerAlertView/PickerAlertView-Prefix.pch";
-				GCC_VERSION = 4.2;
+				GCC_VERSION = "";
 				INFOPLIST_FILE = "PickerAlertView/PickerAlertView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "FDCD9F1D-85D1-4D25-8D0F-BE819EFE65D3";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FDCD9F1D-85D1-4D25-8D0F-BE819EFE65D3";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

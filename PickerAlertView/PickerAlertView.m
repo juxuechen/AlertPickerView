@@ -54,7 +54,7 @@
 {
 	datePickerView = [[UIDatePicker alloc] initWithFrame:CGRectZero];
 	datePickerView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleTopMargin;
-	datePickerView.frame = CGRectMake(10, 10, 300, 216);//216
+	datePickerView.frame = CGRectMake(-10, 10, 300, 216);//216
 	datePickerView.datePickerMode = UIDatePickerModeDate;
 	
 	[self addSubview:datePickerView];
